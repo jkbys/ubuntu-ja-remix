@@ -50,7 +50,7 @@ if [[ ! -f $INPUT_ISO ]]; then
 fi
 
 # install packages
-apt-get install squashfs-tools xorriso cd-boot-images-amd64
+apt-get install -y squashfs-tools xorriso cd-boot-images-amd64
 
 # remove directories
 log "Removing previously created directories ..."
